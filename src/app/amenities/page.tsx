@@ -34,14 +34,14 @@ export default function AmenitiesPage() {
       id: 3,
       title: "Fine Dining Restaurant",
       description: "Experience culinary excellence at our award-winning restaurant featuring international cuisine and an extensive wine selection",
-      imageSrc: "http://img.b2bpic.net/free-photo/grey-painted-fancy-restaurant-with-empty-dinner-table_140725-8730.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/grey-painted-fancy-restaurant-with-empty-dinner-table_140725-8730.jpg?_wi=2",
       imageAlt: "Fine Dining Restaurant"
     },
     {
       id: 4,
       title: "Business Facilities",
       description: "Professional meeting spaces and high-speed internet connectivity for seamless business operations and events",
-      imageSrc: "http://img.b2bpic.net/free-photo/served-table-restaurant_93675-129092.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/served-table-restaurant_93675-129092.jpg?_wi=2",
       imageAlt: "Conference Hall"
     }
   ];
