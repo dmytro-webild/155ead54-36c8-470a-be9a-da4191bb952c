@@ -20,21 +20,21 @@ export default function RoomsPage() {
       id: "deluxe",
       name: "Deluxe Room",
       price: "$250/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=4",
       imageAlt: "Deluxe Room"
     },
     {
       id: "ocean-view",
       name: "Ocean View Suite",
       price: "$450/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg?_wi=2",
       imageAlt: "Ocean View Suite"
     },
     {
       id: "presidential",
       name: "Presidential Suite",
       price: "$850/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=5",
       imageAlt: "Presidential Suite"
     }
   ];
@@ -44,21 +44,21 @@ export default function RoomsPage() {
       id: 1,
       title: "Premium Bedding & Linens",
       description: "Experience ultimate comfort with Egyptian cotton sheets, down pillows, and premium mattresses designed for a perfect night's rest",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=6",
       imageAlt: "Premium Bedding"
     },
     {
       id: 2,
       title: "Spa-Inspired Bathrooms",
       description: "Luxurious en-suite bathrooms with rainfall showers, marble countertops, premium toiletries, and heated towel racks",
-      imageSrc: "http://img.b2bpic.net/free-photo/grey-painted-fancy-restaurant-with-empty-dinner-table_140725-8730.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/grey-painted-fancy-restaurant-with-empty-dinner-table_140725-8730.jpg?_wi=1",
       imageAlt: "Luxury Bathroom"
     },
     {
       id: 3,
       title: "Modern Amenities & Technology",
       description: "High-speed WiFi, smart TV systems, climate control, and premium entertainment options in every room",
-      imageSrc: "http://img.b2bpic.net/free-photo/served-table-restaurant_93675-129092.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/served-table-restaurant_93675-129092.jpg?_wi=1",
       imageAlt: "Modern Tech"
     }
   ];
