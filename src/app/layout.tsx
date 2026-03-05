@@ -5,41 +5,26 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
 const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
+  variable: "--font-montserrat",  subsets: ["latin"],
 });
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Luxe Haven Hotel - Luxury Accommodations & Hospitality",
-  description: "Experience luxury hospitality at Luxe Haven. World-class amenities, fine dining, spa services, and stunning accommodations. Book your perfect stay today.",
-  keywords: "luxury hotel, fine dining, spa resort, five star hotel, accommodation booking",
-  robots: {
+  title: "Luxe Haven Hotel - Luxury Accommodations & Hospitality",  description: "Experience luxury hospitality at Luxe Haven. World-class amenities, fine dining, spa services, and stunning accommodations. Book your perfect stay today.",  keywords: "luxury hotel, fine dining, spa resort, five star hotel, accommodation booking",  robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Luxe Haven Hotel - Premium Luxury Stays",
-    description: "Discover exceptional luxury at Luxe Haven Hotel. Premium rooms, world-class amenities, and unforgettable experiences await.",
-    url: "https://luxehaven.com",
-    siteName: "Luxe Haven Hotel",
-    type: "website",
-    images: [
+    title: "Luxe Haven Hotel - Premium Luxury Stays",    description: "Discover exceptional luxury at Luxe Haven Hotel. Premium rooms, world-class amenities, and unforgettable experiences await.",    url: "https://luxehaven.com",    siteName: "Luxe Haven Hotel",    type: "website",    images: [
       {
-        url: "http://img.b2bpic.net/free-photo/reception-front-desk-registrations_482257-76211.jpg",
-        alt: "Luxe Haven Hotel Luxury Lobby",
-      },
+        url: "http://img.b2bpic.net/free-photo/reception-front-desk-registrations_482257-76211.jpg",        alt: "Luxe Haven Hotel Luxury Lobby"},
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Luxe Haven Hotel - Your Ultimate Luxury Destination",
-    description: "Experience the pinnacle of hospitality. Book your luxurious stay at Luxe Haven Hotel.",
-    images: ["http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg"],
+    card: "summary_large_image",    title: "Luxe Haven Hotel - Your Ultimate Luxury Destination",    description: "Experience the pinnacle of hospitality. Book your luxurious stay at Luxe Haven Hotel.",    images: ["http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg"],
   },
 };
 

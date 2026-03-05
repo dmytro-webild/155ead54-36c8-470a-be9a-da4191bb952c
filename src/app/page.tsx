@@ -20,104 +20,58 @@ export default function HomePage() {
 
   const heroSlides = [
     {
-      imageSrc: "http://img.b2bpic.net/free-photo/reception-front-desk-registrations_482257-76211.jpg",
-      imageAlt: "Luxe Haven Hotel Lobby"
+      imageSrc: "http://img.b2bpic.net/free-photo/reception-front-desk-registrations_482257-76211.jpg",      imageAlt: "Luxe Haven Hotel Lobby"
     },
     {
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=1",
-      imageAlt: "Luxe Haven Bedroom Suite"
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=1",      imageAlt: "Luxe Haven Bedroom Suite"
     },
     {
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg",
-      imageAlt: "Luxe Haven Swimming Pool"
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg",      imageAlt: "Luxe Haven Swimming Pool"
     }
   ];
 
   const roomProducts = [
     {
-      id: "deluxe",
-      name: "Deluxe Room",
-      price: "$250/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=2",
-      imageAlt: "Deluxe Room"
+      id: "deluxe",      name: "Deluxe Room",      price: "$250/night",      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=2",      imageAlt: "Deluxe Room"
     },
     {
-      id: "ocean-view",
-      name: "Ocean View Suite",
-      price: "$450/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg?_wi=1",
-      imageAlt: "Ocean View Suite"
+      id: "ocean-view",      name: "Ocean View Suite",      price: "$450/night",      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg?_wi=1",      imageAlt: "Ocean View Suite"
     },
     {
-      id: "presidential",
-      name: "Presidential Suite",
-      price: "$850/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=3",
-      imageAlt: "Presidential Suite"
+      id: "presidential",      name: "Presidential Suite",      price: "$850/night",      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=3",      imageAlt: "Presidential Suite"
     }
   ];
 
   const testimonials = [
     {
-      id: "1",
-      name: "Sarah Anderson",
-      handle: "@sarahtravel",
-      testimonial: "Luxe Haven exceeded every expectation. The service was impeccable, the rooms were stunning, and the food was absolutely delicious. I'm already booking my next stay!",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/portrait-business-woman-office_1398-6.jpg",
-      imageAlt: "Sarah Anderson"
+      id: "1",      name: "Sarah Anderson",      handle: "@sarahtravel",      testimonial: "Luxe Haven exceeded every expectation. The service was impeccable, the rooms were stunning, and the food was absolutely delicious. I'm already booking my next stay!",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/portrait-business-woman-office_1398-6.jpg",      imageAlt: "Sarah Anderson"
     },
     {
-      id: "2",
-      name: "James Mitchell",
-      handle: "@jamesmit",
-      testimonial: "The perfect destination for a business trip. Great facilities, helpful staff, and an excellent location. Highly recommend to anyone visiting the city.",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/smiling-homosexual-man-official-suit-looking-camera-close-up-shot-happy-gay-getting-dressed-wedding-ceremony-standing-hotel-room-with-his-partner-background-love-emotion-concept_74855-22675.jpg",
-      imageAlt: "James Mitchell"
+      id: "2",      name: "James Mitchell",      handle: "@jamesmit",      testimonial: "The perfect destination for a business trip. Great facilities, helpful staff, and an excellent location. Highly recommend to anyone visiting the city.",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/smiling-homosexual-man-official-suit-looking-camera-close-up-shot-happy-gay-getting-dressed-wedding-ceremony-standing-hotel-room-with-his-partner-background-love-emotion-concept_74855-22675.jpg",      imageAlt: "James Mitchell"
     },
     {
-      id: "3",
-      name: "Elena Rodriguez",
-      handle: "@elenav",
-      testimonial: "We celebrated our anniversary here and it was magical. The spa treatments, romantic dinner, and attentive service made it unforgettable. Thank you!",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/front-view-cute-girl-looking-away_23-2148436134.jpg",
-      imageAlt: "Elena Rodriguez"
+      id: "3",      name: "Elena Rodriguez",      handle: "@elenav",      testimonial: "We celebrated our anniversary here and it was magical. The spa treatments, romantic dinner, and attentive service made it unforgettable. Thank you!",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/front-view-cute-girl-looking-away_23-2148436134.jpg",      imageAlt: "Elena Rodriguez"
     },
     {
-      id: "4",
-      name: "David Chen",
-      handle: "@davidtrip",
-      testimonial: "Outstanding hospitality. Every detail was thoughtfully planned, from the welcome amenities to the personalized recommendations. Coming back soon!",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/cheerful-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-office-employer-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-6842.jpg",
-      imageAlt: "David Chen"
+      id: "4",      name: "David Chen",      handle: "@davidtrip",      testimonial: "Outstanding hospitality. Every detail was thoughtfully planned, from the welcome amenities to the personalized recommendations. Coming back soon!",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/cheerful-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-office-employer-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-6842.jpg",      imageAlt: "David Chen"
     },
     {
-      id: "5",
-      name: "Maria Garcia",
-      handle: "@maria_travels",
-      testimonial: "The best hotel experience of my travels. Modern, elegant, and absolutely worth every penny. The concierge service is phenomenal!",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/travel-concept-close-up-portrait-young-beautiful-attractive-girl-wtih-trendy-hat-smiling-white-b_1258-112983.jpg",
-      imageAlt: "Maria Garcia"
+      id: "5",      name: "Maria Garcia",      handle: "@maria_travels",      testimonial: "The best hotel experience of my travels. Modern, elegant, and absolutely worth every penny. The concierge service is phenomenal!",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/travel-concept-close-up-portrait-young-beautiful-attractive-girl-wtih-trendy-hat-smiling-white-b_1258-112983.jpg",      imageAlt: "Maria Garcia"
     },
     {
-      id: "6",
-      name: "Robert Thompson",
-      handle: "@robertexp",
-      testimonial: "Luxe Haven is luxury redefined. From the moment I arrived until departure, I felt valued and well-cared for. Five stars all the way!",
-      rating: 5,
-      imageSrc: "http://img.b2bpic.net/free-photo/young-successful-businessman-posing-with-crossed-arms_176420-1149.jpg",
-      imageAlt: "Robert Thompson"
+      id: "6",      name: "Robert Thompson",      handle: "@robertexp",      testimonial: "Luxe Haven is luxury redefined. From the moment I arrived until departure, I felt valued and well-cared for. Five stars all the way!",      rating: 5,
+      imageSrc: "http://img.b2bpic.net/free-photo/young-successful-businessman-posing-with-crossed-arms_176420-1149.jpg",      imageAlt: "Robert Thompson"
     }
   ];
 
   const footerColumns = [
     {
-      title: "Hotel",
-      items: [
+      title: "Hotel",      items: [
         { label: "About Us", href: "#" },
         { label: "Rooms & Suites", href: "/rooms" },
         { label: "Amenities", href: "/amenities" },
@@ -125,8 +79,7 @@ export default function HomePage() {
       ]
     },
     {
-      title: "Services",
-      items: [
+      title: "Services",      items: [
         { label: "Spa & Wellness", href: "#" },
         { label: "Concierge", href: "#" },
         { label: "Events", href: "#" },
@@ -134,8 +87,7 @@ export default function HomePage() {
       ]
     },
     {
-      title: "Guest Info",
-      items: [
+      title: "Guest Info",      items: [
         { label: "Check-In Guide", href: "#" },
         { label: "Policies", href: "#" },
         { label: "FAQs", href: "#" },
@@ -143,8 +95,7 @@ export default function HomePage() {
       ]
     },
     {
-      title: "Connect",
-      items: [
+      title: "Connect",      items: [
         { label: "Facebook", href: "https://facebook.com" },
         { label: "Instagram", href: "https://instagram.com" },
         { label: "Twitter", href: "https://twitter.com" },
@@ -178,7 +129,7 @@ export default function HomePage() {
       <div id="hero" data-section="hero">
         <HeroCarouselLogo
           logoText="LUXE HAVEN"
-          description="Experience the pinnacle of luxury hospitality with world-class amenities, exquisite dining, and unparalleled service"
+          description="Book your luxury stay now"
           buttons={[
             { text: "Book Your Stay", href: "/contact" },
             { text: "Explore Rooms", href: "/rooms" }
