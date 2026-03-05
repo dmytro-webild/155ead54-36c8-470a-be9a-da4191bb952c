@@ -24,7 +24,7 @@ export default function HomePage() {
       imageAlt: "Luxe Haven Hotel Lobby"
     },
     {
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=1",
       imageAlt: "Luxe Haven Bedroom Suite"
     },
     {
@@ -38,21 +38,21 @@ export default function HomePage() {
       id: "deluxe",
       name: "Deluxe Room",
       price: "$250/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=2",
       imageAlt: "Deluxe Room"
     },
     {
       id: "ocean-view",
       name: "Ocean View Suite",
       price: "$450/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/rear-view-female-lying-bed-looking-beach-through-glass-windows_181624-57823.jpg?_wi=1",
       imageAlt: "Ocean View Suite"
     },
     {
       id: "presidential",
       name: "Presidential Suite",
       price: "$850/night",
-      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg",
+      imageSrc: "http://img.b2bpic.net/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?_wi=3",
       imageAlt: "Presidential Suite"
     }
   ];
