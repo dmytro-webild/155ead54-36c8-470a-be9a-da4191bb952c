@@ -178,7 +178,7 @@ export default function HomePage() {
 
       <div id="contact" data-section="contact">
         <ContactText
-          text="Ready to make your reservation? Get in touch with our team today and let us create an unforgettable experience for you."
+          text="Ready to experience luxury? Reserve your perfect room today and receive a complimentary upgrade offer."
           animationType="entrance-slide"
           buttons={[
             { text: "Reserve Now", href: "/contact" },
